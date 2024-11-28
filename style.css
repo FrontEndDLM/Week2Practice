@@ -1,0 +1,151 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.NavigationBar {
+  background-color: #cafdff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16px;
+}
+
+.nav-box-wrapper {
+  display: flex;
+  align-items: center;
+  /*houses the three links (About Discord and Contact)*/
+}
+
+ul {
+  margin: 0;
+  padding: 0px 20px 0px 0px;
+  /*adds space between the navigation bar links*/
+}
+
+li {
+  list-style: none;
+  /*removes the bullets from the navigation bar list*/
+}
+
+a {
+  color: black;
+  /*changes the anchor color for the links*/
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.BestPlace {
+  background-color: #eadcfe;
+  padding: 48px 48px 0 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-wrapper {
+  width: 45%;
+  padding-bottom: 24px;
+}
+
+button {
+  background-color: #05c7cf;
+  color: white;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.About {
+  background-color: lightgreen;
+  padding: 48px 48px 0 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.box-wrapper2 {
+  width: 60%;
+  padding-bottom: 24px;
+  margin: 24px;
+}
+
+.Discord {
+  background-color: paleturquoise;
+  padding: 48px 48px 0 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Contact {
+  background-color: powderblue;
+  padding: 24px 24px 48px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-wrapper3 {
+  align-content: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.Footer {
+  background-color: #aaf5ff;
+  padding: 48px 48px 0 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer_logo {
+  max-width: 480px;
+  margin-bottom: 16px;
+}
+
+.footer_links {
+  margin-bottom: 24px;
+}
+
+.footer_link {
+  padding: 0 16px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
