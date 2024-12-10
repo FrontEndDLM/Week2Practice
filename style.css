@@ -154,6 +154,7 @@ button {
 
 
 @media (max-width: 728px) {
+  /*tablet width*/
   .row {
     flex-direction: column;
   }
@@ -198,5 +199,25 @@ button {
 }
 
 @media (max-width: 576px) {
-  
+  /*mobile phone width*/
+ .BestPlace {
+  max-width: 576px;
+ }
+
+ .BestPlace figure {
+  padding-top: 24px;
+ }
+
+ form {
+  padding: 0px 24px 0 24px;
+  max-width: 500px;
+ }
+
+ textarea {
+  max-width: 400px;
+ }
+
+ .footer_logo {
+  max-width: 90%;
+ }
 }
